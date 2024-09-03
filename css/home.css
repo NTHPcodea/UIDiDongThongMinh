@@ -221,6 +221,15 @@ input{
     width: 1200px;
     align-items: center;
 }
+/* Icon Iphone */
+.l_tab>a>h2{
+    background-color: rgb(219, 211, 211);
+    font-size: medium;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+
+}
 .nav-tabs .r_tab .list_cat a{
     color: #52504f;
 }
@@ -261,3 +270,98 @@ input{
 }
 
 /* Products Items */
+#product_items_list{
+    background-color: #ffffff;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    flex-direction: column;
+}
+.wrapper_item{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-color: #ff0080;
+}
+.img_item{
+    width: 190px;
+    height: 208px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper_item .information_item{
+    width: 210px;
+    height: auto;
+    background-color: rgb(219, 0, 0);
+    border-radius: 10px;
+}
+.information_item li{
+    list-style: none;
+}
+.information_item a{
+    text-decoration: line-through;
+}
+.clock-sal{
+    width: 15px;
+    height: 17px;
+    margin: 2px;
+}
+.time_sale{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.text_sale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 15px;
+    background-color: #60bb22;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 20px;
+}
+.star_sale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff6700;
+    width: 74px;
+    height: 16px;
+    margin: 10px;
+}
+
+/* Hover transion */
+.wrapper_items:hover{
+    cursor: pointer;
+    color: #ff6700;
+}
+.wrapper_item .img_item:hover{
+    transform: translateY(-10px);
+    transition: 0.3s ease;
+}
+
+.wrapper_items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Full produc */
+#all_product_list{
+    background-color: #ff0080;
+    position: relative;
+}
+#product_items_list{
+}
+
+.arrow{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+}
